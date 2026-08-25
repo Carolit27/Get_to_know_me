@@ -1,6 +1,6 @@
 # Hi there! 👋 I'm Carol
 
-Welcome to my GitHub profile! I'm a **Platform Engineer with a Software Engineering Background** passionate about building scalable infrastructure, optimizing deployment pipelines, and enabling teams to ship code reliably and efficiently.
+Welcome to my GitHub profile! I'm a **Platform Engineer, with a Software Engineering Background**. I am passionate about building scalable infrastructure, optimizing deployment pipelines, and enabling teams to ship code reliably and efficiently.
 
 ## 🚀 About Me
 
