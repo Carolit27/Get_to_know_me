@@ -8,8 +8,7 @@ Platform Engineer with 7 years of experience in cloud infrastructure, automation
 
 ## Education
 ### Master of Science in Software Engineering – AI Engineering
-Western Governors University (WGU)  
-Graduation Date: October 10, 2026
+Western Governors University (WGU)
 
 ### Bachelor of Science in Biology
 The University of Texas at San Antonio
