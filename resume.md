@@ -1,8 +1,5 @@
 # Telma Mabo
 
-Email: tcmabo@gmail.com  
-Phone: 424-224-3673
-
 ## Professional Summary
 Platform Engineer and Software Engineer with 7 years of experience in cloud infrastructure, automation, CI/CD, and production support. Skilled in Azure and AWS environments, Infrastructure as Code, pipeline automation, monitoring, and system reliability. Strong experience in Terraform, Azure DevOps, GitHub Actions, Jenkins, Docker, Kubernetes, and cloud-native application deployment. Recently completed a Master of Science in Software Engineering – AI Engineering from WGU, with hands-on coursework in software architecture, cloud computing, machine learning, AI integration, and responsible AI practices.
 
