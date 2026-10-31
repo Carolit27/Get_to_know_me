@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telma Mabo Resume</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #222;
+    }
+    .page {
+      max-width: 900px;
+      margin: 24px auto;
+      background: #fff;
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
+      padding: 40px 52px;
+    }
+    h1 {
+      margin: 0 0 8px 0;
+      font-size: 30px;
+      letter-spacing: 0.5px;
+    }
+    .contact {
+      margin-bottom: 18px;
+      font-size: 14px;
+      color: #333;
+    }
+    h2 {
+      font-size: 18px;
+      border-bottom: 2px solid #1f4e79;
+      padding-bottom: 6px;
+      margin-top: 26px;
+      margin-bottom: 10px;
+      color: #1f4e79;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    .summary {
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+    .section {
+      margin-top: 8px;
+    }
+    .job {
+      margin-bottom: 14px;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+    .job-company {
+      font-weight: 700;
+    }
+    .job-meta {
+      font-size: 13px;
+      color: #444;
+      margin-bottom: 6px;
+    }
+    ul {
+      margin: 0 0 0 20px;
+      padding: 0;
+    }
+    li {
+      font-size: 13.5px;
+      line-height: 1.5;
+      margin-bottom: 4px;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(240px, 1fr));
+      gap: 14px 22px;
+      margin-top: 6px;
+    }
+    .skill-block h3 {
+      font-size: 14px;
+      margin: 0 0 6px 0;
+      color: #1f4e79;
+    }
+    .skill-block ul {
+      margin-left: 16px;
+    }
+    .course-item {
+      margin-bottom: 12px;
+    }
+    .course-item strong {
+      font-size: 14px;
+    }
+    .education-item {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    @media print {
+      body {
+        background: white;
+      }
+      .page {
+        box-shadow: none;
+        margin: 0;
+        max-width: none;
+        padding: 20px 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Telma Mabo</h1>
+    <div class="contact">Email: tcmabo@gmail.com &nbsp;|&nbsp; Phone: 424-224-3673</div>
+
+    <h2>Professional Summary</h2>
+    <div class="summary">
+      Platform Engineer and Software Engineer with 7 years of experience in cloud infrastructure, automation, CI/CD, and production support. Skilled in Azure and AWS environments, Infrastructure as Code, pipeline automation, monitoring, and system reliability. Strong experience in Terraform, Azure DevOps, GitHub Actions, Jenkins, Docker, Kubernetes, and cloud-native application deployment. Recently completed a Master of Science in Software Engineering – AI Engineering from WGU, with hands-on coursework in software architecture, cloud computing, machine learning, AI integration, and responsible AI practices.
+    </div>
+
+    <h2>Professional Experience</h2>
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">DevOps Engineer</span>
+        <span>May 2022 – Present</span>
+      </div>
+      <div class="job-meta">Zendesk (Remote)</div>
+      <ul>
+        <li>Design, build, and maintain automated CI/CD pipelines for code deployment using Jenkins, Azure DevOps, and GitHub Actions.</li>
+        <li>Implement Infrastructure as Code (IaC) using Terraform to provision and manage cloud resources in Azure and AWS.</li>
+        <li>Support scalable, resilient, and secure microservices architectures deployed in cloud environments.</li>
+        <li>Monitor, troubleshoot, and resolve issues across cloud-hosted systems and services using fault isolation and root-cause analysis.</li>
+        <li>Automate build, test, and deployment workflows to improve speed, reliability, and quality across environments.</li>
+        <li>Collaborate with development teams to containerize applications using Docker and orchestrate them with Kubernetes.</li>
+        <li>Support security integration in CI/CD pipelines to improve application and platform security throughout the SDLC.</li>
+        <li>Maintain build and release pipelines for solution and function app deployments.</li>
+        <li>Contribute to observability and production support using Azure Monitor, Application Insights, Log Analytics, Grafana, and KQL.</li>
+        <li>Assist with infrastructure drift remediation, deployment validation, and operational reliability improvements.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Junior Cloud Engineer</span>
+        <span>March 2020 – April 2022</span>
+      </div>
+      <div class="job-meta">Beyond Finance (Remote)</div>
+      <ul>
+        <li>Built engineering automation and productivity tools to streamline deployment and production support.</li>
+        <li>Contributed to installation, administration, and support of servers across cloud and on-prem environments.</li>
+        <li>Supported backend framework development focused on maintainability, scalability, and performance.</li>
+        <li>Worked as part of a team to design and develop cloud data solutions.</li>
+        <li>Provided operational support and automation tooling for application developers.</li>
+        <li>Assisted with environment configuration and deployment troubleshooting.</li>
+      </ul>
+    </div>
+
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h3>Cloud & Infrastructure</h3>
+        <ul>
+          <li>AWS (EC2, VPC, S3, RDS, CLI)</li>
+          <li>Azure (App Service, Service Bus, Key Vault, App Configuration, Azure Monitor, Entra ID, RBAC)</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Infrastructure as Code</h3>
+        <ul>
+          <li>Terraform</li>
+          <li>CloudFormation</li>
+          <li>IaC automation</li>
+          <li>Infrastructure drift detection</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>CI/CD & DevOps</h3>
+        <ul>
+          <li>Azure DevOps</li>
+          <li>GitHub Actions</li>
+          <li>Jenkins</li>
+          <li>Release engineering</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Monitoring & Observability</h3>
+        <ul>
+          <li>Azure Monitor</li>
+          <li>Application Insights</li>
+          <li>Log Analytics</li>
+          <li>Grafana</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Containerization & Orchestration</h3>
+        <ul>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Programming & Scripting</h3>
+        <ul>
+          <li>Python</li>
+          <li>Bash</li>
+          <li>PowerShell</li>
+          <li>Java, C#, ASP.NET</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Machine Learning & AI</h3>
+        <ul>
+          <li>Regression and classification</li>
+          <li>TensorFlow</li>
+          <li>scikit-learn</li>
+          <li>PCA and model evaluation</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Security & Quality</h3>
+        <ul>
+          <li>SonarQube</li>
+          <li>GitHub Advanced Security</li>
+          <li>SAST</li>
+          <li>RBAC and least privilege</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>Certifications</h2>
+    <ul>
+      <li>AWS Certified Cloud Practitioner</li>
+      <li>Azure Fundamentals (AZ-900)</li>
+    </ul>
+
+    <h2>Selected Coursework & Projects</h2>
+    <div class="course-item"><strong>Real Life Applications of Data Structures</strong><br />Designed a Python-based warehousing and order processing system using hash tables, arrays, queues, priority queues, and stacks.</div>
+    <div class="course-item"><strong>Advanced Software Engineering</strong><br />Created a software development methodology and project management plan for an e-commerce web application.</div>
+    <div class="course-item"><strong>Software Product Design and Requirements Engineering</strong><br />Prepared an SRS and usability testing plans for a transit application and interactive prototype with accessibility considerations.</div>
+    <div class="course-item"><strong>Software Architecture and Design</strong><br />Refactored a retail system using design patterns and split a monolith into microservices.</div>
+    <div class="course-item"><strong>Software Quality Assurance and Deployment</strong><br />Applied TDD, built Selenium tests, developed a GitLab CI/CD pipeline, and restored a PostgreSQL database on AWS RDS.</div>
+    <div class="course-item"><strong>Network Architecture and Cloud Computing</strong><br />Designed an Azure architecture for a cloud-based application using Front Door, App Service, Azure SQL, Blob Storage, Redis, Key Vault, and Azure Monitor.</div>
+    <div class="course-item"><strong>Applied Machine Learning for Business Solutions</strong><br />Built and compared ML models including Linear Regression, Logistic Regression, Random Forest, and TensorFlow neural networks.</div>
+    <div class="course-item"><strong>Integrating AI with Modern Software Applications</strong><br />Built a Dialogflow weather chatbot integrated with a live API and designed an AI implementation strategy.</div>
+    <div class="course-item"><strong>Human-Centered AI</strong><br />Evaluated AI resume-screening systems through human-centered design principles, ethics, and monitoring with human review.</div>
+
+    <h2>Education</h2>
+    <div class="education-item"><strong>Master of Science in Software Engineering – AI Engineering</strong><br />Western Governors University (WGU)</div>
+    <div class="education-item"><strong>Bachelor of Science in Biology</strong><br />The University of Texas at San Antonio</div>
+    <div class="education-item"><strong>Associate of Applied Arts and Science in Biology & Liberal Arts</strong><br />The University of Texas at San Antonio</div>
+  </div>
+</body>
+</html>
